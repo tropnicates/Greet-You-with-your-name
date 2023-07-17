@@ -8,7 +8,7 @@ const addName = () =>{
     const tag = document.createElement("div");
     tag.setAttribute("class","tag");
 
-    tag.innerText = `Hey, I am ${name.value}`;
+    tag.innerText = `Hey, Namaste ${name.value}`;
     tagContainer.append(tag);
 
 };
